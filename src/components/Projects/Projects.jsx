@@ -2,6 +2,7 @@ import React from 'react'
 import Auto_parts from "./projectImages/Auto_parts.png"
 import Myntra from "./projectImages/Myntra.png"
 import timer from "./projectImages/timer.png"
+import Educom from "./projectImages/Educom.png"
 import "./Project.css"
 import { motion } from "framer-motion"
 
@@ -30,12 +31,12 @@ const data = [
         githubLink: "https://github.com/MridulKatara/stopWatch",
         appLink: "https://unrivaled-empanada-98d402.netlify.app/"
     }, {
-        img: Auto_parts,
-        projectTitle: "Auto_parts",
-        techStack: ["HTML","CSS","JavaScript","API","Firebase","RazorPay"],
-        description: "Autoparts is an online e-commerce website where you will find wide varity of autoparts products for different automobiles. Many functionalities are provided in the web application like login/signup, cart and filtering the products with its category along with payment and full responsiveness.",
-        githubLink: "https://github.com/MridulKatara/Auto_Parts-clone",
-        appLink: "https://merry-meringue-c50ac4.netlify.app/"
+        img: Educom,
+        projectTitle: "Educom",
+        techStack: ["HTML","Tailwindcss","JavaScript","Firebase","RazorPay"],
+        description: "A complete course platform with advanced features. Contains personalized course dashboard and eye-appealing and responsive UI",
+        githubLink: "https://github.com/MridulKatara/Educom",
+        appLink: "educom.vercel.app/"
     }
 ]
 

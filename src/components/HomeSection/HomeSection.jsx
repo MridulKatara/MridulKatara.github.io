@@ -6,13 +6,13 @@ import MyResume from "../Navbar/MyResume.pdf"
 function HomeSection() {
     const downloadHandle = () => {
         const link = document.createElement("a");
-        link.download = "Mridulkatara-Resume.pdf";
+        link.download = "Mridulkatara_Resume.pdf";
         link.href = MyResume;
         link.setAttribute("class", "resume-link-2")
         link.click();
 
         window.open(
-            "https://drive.google.com/file/d/1UMEMYj-jQywZmWkfTWlL2jJcQNNVvzTF/view?usp=sharing",
+            "https://drive.google.com/file/d/1uIAdsHG1859MAC2gv-GUV0wLhigmHabQ/view?usp=sharing",
             "_blank"
         );
     };

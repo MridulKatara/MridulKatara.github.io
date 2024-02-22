@@ -7,11 +7,11 @@ function Navbar() {
 
     const downloadHandle = () => {
         const link = document.createElement("a");
-        link.download = "Mridulkatara-Resume.pdf";
+        link.download = "Mridulkatara_Resume.pdf";
         link.href = resume;
         link.click();
         window.open(
-            "https://drive.google.com/file/d/1UMEMYj-jQywZmWkfTWlL2jJcQNNVvzTF/view?usp=sharing",
+            "https://drive.google.com/file/d/1uIAdsHG1859MAC2gv-GUV0wLhigmHabQ/view?usp=sharing",
             "_blank"
         );
     };
