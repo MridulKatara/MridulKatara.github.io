@@ -11,7 +11,7 @@ function Navbar() {
         link.href = resume;
         link.click();
         window.open(
-            "https://drive.google.com/file/d/1uIAdsHG1859MAC2gv-GUV0wLhigmHabQ/view?usp=sharing",
+            "https://drive.google.com/file/d/1ispQzEvKmBfvNE1FLPqNxy3Wg2dA_Gaf/view?usp=sharing",
             "_blank"
         );
     };
